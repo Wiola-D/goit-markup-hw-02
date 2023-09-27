@@ -4,7 +4,7 @@
 .body {
   color: var(--brand-color);
 }
-.name {
+.title-website {
   color: var(--brand-color);
   font-family: Raleway;
   font-size: 18px;
@@ -30,7 +30,15 @@ button:hover,
 button:focus {
   cursor: pointer;
 }
-
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 07;
+  letter-spacing: 1.12px;
+}
 button {
   color: #4d5ae5;
   text-align: center;
@@ -40,10 +48,50 @@ button {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
+button > .button-order {
+  color: #fff;
+}
 button > .button-all {
   color: #fff;
 }
-h3 {
+section > h2 {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.text {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.name {
+  text-align: center;
+}
+.job-name {
+  color: #434455;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.img-description {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -52,6 +100,21 @@ h3 {
 }
 ul > p {
   color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+footer > a {
+  display: flex;
+  width: 71px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
+}
+footer > p {
+  color: #f4f4fd;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
