@@ -9,7 +9,7 @@
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -107,11 +107,17 @@ ul > p {
   letter-spacing: 0.32px;
 }
 footer > a {
-  display: flex;
-  width: 71px;
-  height: 21px;
-  flex-direction: column;
-  justify-content: center;
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+a > span {
+  color: #4d5ae5;
 }
 footer > p {
   color: #f4f4fd;
