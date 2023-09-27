@@ -48,10 +48,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-button > .button-order {
+.button-order {
   color: #fff;
 }
-button > .button-all {
+.button-all {
   color: #fff;
 }
 section > h2 {
