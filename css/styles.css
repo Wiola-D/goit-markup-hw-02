@@ -71,7 +71,7 @@ button:focus {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1, 07;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .button {
@@ -106,11 +106,12 @@ button:focus {
 .button:hover {
   color: #ffffff;
   background-color: #404bbf;
-  .button:focus {
-    color: #ffffff;
-    background-color: #404bbf;
-  }
 }
+.button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
 .section-title {
   text-align: center;
   font-size: 36px;
@@ -127,6 +128,7 @@ button:focus {
   background-color: #ffffff;
 }
 .title {
+  color: var(--brand-color);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
