@@ -100,7 +100,7 @@ button:focus {
   background-color: #404bbf;
 }
 .button-order:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .button:hover {
